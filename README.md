@@ -1,0 +1,1 @@
+# Lenovo-Ideapad-330S-14IKB
