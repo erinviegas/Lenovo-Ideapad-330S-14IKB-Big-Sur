@@ -29,43 +29,13 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change OSID to XSID (to avoid match against _OSI XOSI patch)</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>T1NJRA==</data>
-					<key>Replace</key>
-					<data>WFNJRA==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X09TSQ==</data>
 					<key>Replace</key>
 					<data>WE9TSQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change _DSM to XDSM</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>X0RTTQ==</data>
-					<key>Replace</key>
-					<data>WERTTQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change EC0 to EC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>RUMwXw==</data>
-					<key>Replace</key>
-					<data>RUNfXw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -79,53 +49,63 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change ECDV to EC</string>
+					<string>_BIF to XBIF for SSDT-BATT</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>RUNEVg==</data>
+					<data>X0JJRg==</data>
 					<key>Replace</key>
-					<data>RUNfXw==</data>
+					<data>WEJJRg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>SERBUw==</data>
-					<key>Replace</key>
-					<data>SERFRg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HECI to IMEI</string>
+					<string>_BST to XBST for SSDT-BATT</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SEVDSQ==</data>
+					<data>X0JTVA==</data>
 					<key>Replace</key>
-					<data>SU1FSQ==</data>
+					<data>WEJTVA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change MEI to IMEI</string>
+					<string>GSBI to XSBI  for SSDT-BATT</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>TUVJXw==</data>
+					<data>R1NCSQ==</data>
 					<key>Replace</key>
-					<data>SU1FSQ==</data>
+					<data>WFNCSQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change GFX0 to IGPU</string>
+					<string>MHIF to XHIF for SSDT-BATT</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R0ZYMA==</data>
+					<data>TUhJRg==</data>
 					<key>Replace</key>
-					<data>SUdQVQ==</data>
+					<data>WEhJRg==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q02 to Q02X for SSDT-BRGT-REMAP</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1EwMg==</data>
+					<key>Replace</key>
+					<data>UTAyWA==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q03 to Q03X for SSDT-BRGT-REMAP</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1EwMw==</data>
+					<key>Replace</key>
+					<data>UTAzWA==</data>
 				</dict>
 			</array>
 		</dict>
@@ -202,12 +182,6 @@
 		<dict>
 			<key>PciRoot(0)/Pci(0x1f,3)</key>
 			<dict>
-				<key>#PinConfigurations</key>
-				<data></data>
-				<key>#hda-gfx</key>
-				<string>onboard-1</string>
-				<key>#no-controller-patch</key>
-				<integer>1</integer>
 				<key>layout-id</key>
 				<integer>15</integer>
 			</dict>

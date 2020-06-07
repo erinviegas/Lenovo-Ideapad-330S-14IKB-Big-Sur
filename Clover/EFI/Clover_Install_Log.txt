@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Mon Feb 24 13:49:15 IST 2020
-Installer version: v2.5k r5104 EFI bootloader
+Clover EFI installer log - Sun Jun  7 16:52:57 IST 2020
+Installer version: r5119 (commit: 0f5da727e) EFI bootloader
 ======================================================
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -21,17 +21,17 @@ Installer version: v2.5k r5104 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +239.8 GB   disk2
                                  Physical Store disk0s2
-   1:                APFS Volume macOS - Data            81.6 GB    disk2s1
+   1:                APFS Volume macOS - Data            80.5 GB    disk2s1
    2:                APFS Volume Preboot                 80.9 MB    disk2s2
-   3:                APFS Volume Recovery                526.6 MB   disk2s3
+   3:                APFS Volume Recovery                528.5 MB   disk2s3
    4:                APFS Volume VM                      1.1 MB     disk2s4
-   5:                APFS Volume macOS                   11.4 GB    disk2s5
+   5:                APFS Volume macOS                   11.7 GB    disk2s5
 
 Target volume /Volumes/macOS on disk2 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/macOS/EFIROOTDIR/EFI folder to /Volumes/macOS/EFI-Backups/r5103/2020-02-24-13h49/EFI
+Backing up /Volumes/macOS/EFIROOTDIR/EFI folder to /Volumes/macOS/EFI-Backups/r5118/2020-06-07-16h52/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
