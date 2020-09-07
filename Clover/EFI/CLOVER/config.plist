@@ -59,6 +59,16 @@
 				</dict>
 				<dict>
 					<key>Find</key>
+					<data>R1BSVwI=</data>
+					<key>Replace</key>
+					<data>WFBSVwI=</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>(GPRW,2,N) to XPRW</string>
+				</dict>
+				<dict>
+					<key>Find</key>
 					<data>SF9FQw==</data>
 					<key>Replace</key>
 					<data>RUNfXw==</data>
