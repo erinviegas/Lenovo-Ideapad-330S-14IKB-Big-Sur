@@ -48,6 +48,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Lid Sleep Fix</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-LID.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SMBus support</string>
 				<key>Enabled</key>
 				<true/>
@@ -85,14 +93,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-XOSI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable LID open</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-RCSM.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -305,7 +305,33 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>AA==</data>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>(_LID, E) to XLID</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X0xJRACgDpNF</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WExJRACgDpNF</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>AAA=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -331,7 +357,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>AA==</data>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -357,7 +383,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>AA==</data>
+				<data></data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -435,10 +461,10 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
