@@ -7,7 +7,7 @@
 - Removed Intel WiFi card and replaced with Lenovo Branded Broadcom BCM94352Z.
 
 ## Issues
-- Sometimes sleep doesn't work while closing the lid. (Very Random)
+- Audio issue after sleep. Can be fixed by going to the sound preferences and switching the inputs.
 
 ## BIOS Settings
 - Upgrade to the latest BIOS.
