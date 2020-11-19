@@ -15,3 +15,4 @@
 - Disable secure boot and unload optimized defaults for windows 10.
 
 ### Full installation tutorial linked in the repository description.
+Credit to [kasti0](https://github.com/kasti0) and [lucrative-menace](https://github.com/lucrative-menace) for the LID fix.
