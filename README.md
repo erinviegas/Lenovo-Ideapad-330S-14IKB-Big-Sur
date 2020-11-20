@@ -19,5 +19,6 @@
 ### Credits
 - [dortania](https://github.com/dortania) for the install guide.
 - [acidanthera](https://github.com/acidanthera) for OpenCore and kexts.
+- [fewtarius](https://github.com/fewtarius) for CPUFriendFriend.
 - [zhen-zen](https://github.com/zhen-zen) for YogaSMC.
 - [kasti0](https://github.com/kasti0) and [lucrative-menace](https://github.com/lucrative-menace) for the LID fix.
